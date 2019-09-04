@@ -8,14 +8,21 @@
     "dev": "nuxt-ts",
     "build": "nuxt-ts build",
     "start": "nuxt-ts start",
-    "generate": "nuxt-ts generate"
+    "generate": "nuxt-ts generate",
+    "lint": "eslint --ext .ts,.js,.vue --ignore-path .gitignore .",
+    "lint:fix": "eslint --ext .ts,.js,.vue --ignore-path .gitignore . --fix"
   },
   "dependencies": {
     "@nuxt/types": "^0.2.6",
     "@nuxt/typescript-runtime": "^0.1.5",
+    "eslint": "^6.3.0",
+    "eslint-config": "^0.3.0",
     "nuxt": "^2.0.0"
   },
   "devDependencies": {
-    "@nuxt/typescript-build": "^0.2.1"
+    "@nuxt/typescript-build": "^0.2.1",
+    "@nuxtjs/eslint-config-typescript": "^0.1.2",
+    "@typescript-eslint/eslint-plugin": "^2.1.0",
+    "@typescript-eslint/parser": "^2.1.0"
   }
 }

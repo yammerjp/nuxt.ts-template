@@ -1,4 +1,4 @@
-import {Configuration} from '@nuxt/types'
+import { Configuration } from '@nuxt/types'
 
 const nuxtConfig: Configuration = {
   mode: 'universal',
@@ -48,8 +48,10 @@ const nuxtConfig: Configuration = {
     /*
     ** You can extend webpack config here
     */
+    /*
     extend (config, ctx) {
     }
+    */
   }
 }
 
