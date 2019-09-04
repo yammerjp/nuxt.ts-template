@@ -5,13 +5,17 @@
   "author": "basd4g",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "start": "nuxt-ts start",
+    "generate": "nuxt-ts generate"
   },
   "dependencies": {
+    "@nuxt/types": "^0.2.6",
+    "@nuxt/typescript-runtime": "^0.1.5",
     "nuxt": "^2.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@nuxt/typescript-build": "^0.2.1"
+  }
 }

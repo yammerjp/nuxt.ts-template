@@ -1,5 +1,6 @@
+import {Configuration} from '@nuxt/types'
 
-export default {
+const nuxtConfig: Configuration = {
   mode: 'universal',
   /*
   ** Headers of the page
@@ -38,6 +39,7 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    '@nuxt/typescript-build'
   ],
   /*
   ** Build configuration
@@ -50,3 +52,5 @@ export default {
     }
   }
 }
+
+module.exports = nuxtConfig
